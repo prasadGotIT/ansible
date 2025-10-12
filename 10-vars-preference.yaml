@@ -13,6 +13,6 @@
   - name: testing variables preference
     vars:
       NAME: from task level
-  anisble.builtin.debug:
+    anisble.builtin.debug:
       msg: "NAME: {{NAME}}"
       
