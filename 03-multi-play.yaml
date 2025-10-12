@@ -10,7 +10,7 @@
       msg:  "Hello from Play-01 and Task-02"
 
 - name: Play-02
-  hosts: frontend
+  hosts: node
   tasks:
   - name:  play-02 and Task-01
     ansible.builtin.debug:
